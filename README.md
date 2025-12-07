@@ -218,7 +218,7 @@ Le WAF n'est pas une "boite noire". C'est un assemblage de couches (Layers) où 
 
 Cette règle permet de bloquer des adresses IP individuelles ou des sous-réseaux entiers de manière permanente. Elle s'exécute en phase 1 (avant tout traitement de la requête) pour garantir une performance optimale. Vous êtes libre de créer vos propres règles personnalisées pour gérer votre infrastructure.
 
-## Fichier de configuration
+### Fichier de configuration
 
 **Emplacement :** `config/owasp-crs/rules/9100-custom-blacklist.conf`
 
