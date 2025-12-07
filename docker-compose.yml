@@ -1,6 +1,6 @@
 services:
   nginx-waf:
-    image: waf-nginx:latest
+    image: 1posix/waf-nginx:latest
     container_name: nginx-waf
     restart: unless-stopped
     hostname: waf-nginx
