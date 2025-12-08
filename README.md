@@ -132,7 +132,6 @@ server {
 
     # 4. Masquage des erreurs du Backend
     include /etc/nginx/snippets/error-pages.conf;
-    proxy_intercept_errors on;
 
     # 5. Sécurité & Limites
     limit_req zone=general burst=50 nodelay;
