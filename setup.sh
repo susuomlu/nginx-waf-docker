@@ -5,7 +5,7 @@ NGINX_CONF="$BASE_DIR/config/nginx.conf"
 
 RED='\033[0;31m'
 GREEN='\033[0;32m'
-YELLOW='\033[1;33m'
+YELLOW='\033[38;5;226m'
 NC='\033[0m'
 
 echo -e "${YELLOW}[INIT] Vérification de la structure WAF...${NC}"
