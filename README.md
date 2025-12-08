@@ -272,13 +272,13 @@ Si ce projet vous aide à sécuriser votre infra, merci de laisser une étoile �
 
 ### Documentation Officielle
 
-<a href="https://nginx.org/en/docs/">
+<a href="https://nginx.org/en/docs/" style="text-decoration:none">
   <img src="https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white" alt="Nginx Docs"/>
 </a>
-<a href="https://github.com/owasp-modsecurity/ModSecurity/wiki">
+<a href="https://github.com/owasp-modsecurity/ModSecurity/wiki" style="text-decoration:none">
   <img src="https://img.shields.io/badge/ModSecurity-083fa1?style=for-the-badge&logo=guarani&logoColor=white" alt="ModSecurity Wiki"/>
 </a>
-<a href="https://coreruleset.org/docs/">
+<a href="https://coreruleset.org/docs/" style="text-decoration:none">
   <img src="https://img.shields.io/badge/OWASP_CRS-black?style=for-the-badge&logo=owasp&logoColor=white" alt="OWASP CRS Docs"/>
 </a>
 
