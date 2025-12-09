@@ -8,12 +8,12 @@ GREEN='\033[0;32m'
 YELLOW='\033[38;5;226m'
 NC='\033[0m'
 
-echo -e "${YELLOW}[INIT] Vérification de la structure WAF...${NC}"
+echo -e "${YELLOW}[INIT] Checking WAF structure...${NC}"
 
 
 if [ ! -f "$NGINX_CONF" ]; then
-    echo -e "${RED}[ERREUR] Fichier manquant : config/nginx.conf${NC}"
-    echo -e "${YELLOW}Pour éviter que Docker ne plante (conflit dossier/fichier), tu dois créer ce fichier.${NC}"
+    echo -e "${RED}[ERROR] Missing file: config/nginx.conf${NC}"
+    echo -e "${YELLOW}To prevent Docker from crashing (folder/file conflict), you must create this file.${NC}"
     echo "Action :"
     echo "  cp config/nginx.conf.exemple config/nginx.conf"
     exit 1
@@ -28,7 +28,7 @@ DIRS=(
 for dir in "${DIRS[@]}"; do
     if [ ! -d "$dir" ]; then
         mkdir -p "$dir"
-        echo -e "${GREEN}[+] Dossier créé : $dir${NC}"
+        echo -e "${GREEN}[+] Directory created: $dir${NC}"
     fi
 done
 
@@ -41,11 +41,11 @@ FILES=(
 for file in "${FILES[@]}"; do
     if [ ! -f "$file" ]; then
         touch "$file"
-        echo -e "${GREEN}[+] Fichier vide initialisé : $file${NC}"
+        echo -e "${GREEN}[+] Empty file initialized: $file${NC}"
     fi
 done
 
 chown -R $USER:$USER "$BASE_DIR"
 chmod 755 "$BASE_DIR/"
 
-echo -e "${GREEN}[OK] Structure locale validée.${NC}"
+echo -e "${GREEN}[OK] Local structure validated.${NC}"
