@@ -284,11 +284,3 @@ Si ce projet vous aide à sécuriser votre infra, merci de laisser une étoile �
 
 </div>
 
----
-
-<div align="center">
-
-[![Maintenu par 1posix](https://img.shields.io/badge/Maintenu_par-1posix-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/1posix)
-
-</div>
-
