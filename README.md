@@ -251,36 +251,5 @@ SecRule REMOTE_ADDR "@ipMatch 203.0.113.42,192.0.2.0/24,185.220.101.0/24" \
     tag:'SECURITY/IP-BLOCK',\
     setvar:'tx.anomaly_score=+5',\
     setvar:'ip.blocked=1'"
-```
 
-## Star History
-
-<a href="https://www.star-history.com/#1posix/nginx-waf-docker&type=timeline&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=1posix/nginx-waf-docker&type=timeline&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=1posix/nginx-waf-docker&type=timeline&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=1posix/nginx-waf-docker&type=timeline&legend=top-left" />
- </picture>
-</a>
-
-
-Si ce projet vous aide à sécuriser votre infra, merci de laisser une étoile ⭐. C'est le seul carburant de l'Open Source.
-
----
-
-<div align="center">
-
-### Documentation Officielle
-
-<a href="https://nginx.org/en/docs/" style="text-decoration:none; border:none;">
-  <img src="https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white" alt="Nginx Docs" style="vertical-align:middle; border:none;"/>
-</a>
-<a href="https://github.com/owasp-modsecurity/ModSecurity/wiki" style="text-decoration:none; border:none;">
-  <img src="https://img.shields.io/badge/ModSecurity-083fa1?style=for-the-badge&logo=guarani&logoColor=white" alt="ModSecurity Wiki" style="vertical-align:middle; border:none;"/>
-</a>
-<a href="https://coreruleset.org/docs/" style="text-decoration:none; border:none;">
-  <img src="https://img.shields.io/badge/OWASP_CRS-black?style=for-the-badge&logo=owasp&logoColor=white" alt="OWASP CRS Docs" style="vertical-align:middle; border:none;"/>
-</a>
-
-</div>
 
